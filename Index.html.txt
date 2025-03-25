@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirigir a PDFs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f4f4f4;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 32px;
+            font-size: 16px;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <button onclick="window.location.href='BoisVerna.pdf';">PDF 1</button>
+    <button onclick="window.location.href='LaCathedraledeMilot.pdf';">PDF 2</button>
+    <button onclick="window.location.href='LaCitadelleLaferriere.pdf';">PDF 3</button>
+
+</body>
+</html>
